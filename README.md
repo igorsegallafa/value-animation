@@ -11,7 +11,7 @@ Make a value animation with keyframes and easing function.
 First of all, you will need to include this library into your project. For this, you just need to include "ValueAnimation.h" file.
 
 ### Updating Animation ###
-Call the function Update(float timeElapsed) specifying the time elapsed since last frame (in milliseconds).
+Call the function Update(float timeElapsed) specifying the time elapsed since last frame (in milliseconds). Update() function will return the current value of animation.
 
 ### Examples ###
 ```c++
